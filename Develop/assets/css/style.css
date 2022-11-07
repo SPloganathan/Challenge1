@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
 }
-
+/* arranged all element selectors */
 body {
   background-color: #d9dcd6;
 }
@@ -16,7 +16,7 @@ a {
 p {
   font-size: 16px;
 }
-
+/* grouped all header section */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -59,7 +59,7 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/* grouped all content section */
 .content {
   width: 75%;
   display: inline-block;
@@ -107,7 +107,7 @@ p {
 }
 
 /* all three classes had the same properties so wrapped it under a single classs */
-/* increased margin-bottom for proper alignment */
+/* increased margin-bottom in benefit-details class for proper alignment */
 .benefit-details {
   margin-bottom: 36px;
   color: #ffffff;
